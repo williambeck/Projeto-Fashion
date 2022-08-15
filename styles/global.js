@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
 
   html, body {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    
   }
 
 

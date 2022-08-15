@@ -1,4 +1,4 @@
-import { Container, GalleryCard, Gallery } from "../Main/styles";
+import { Container, GalleryCard, Gallery, About, Contact } from "../Main/styles";
 import Image from "next/image";
 
 
@@ -15,23 +15,37 @@ function Main() {
                 <img src="images/modelo1.jpg"
                 width={100}
                 height={100} alt="" />
-                <p>Loren</p>
+                <p>Vest Romasa </p>
+                <p>Strong &amp; charismatic</p>
             </GalleryCard>
 
             <GalleryCard>
                 <img src="images/modelo2.jpg"
                 width={100}
                 height={100} alt="" />
-                <p>Loren</p>
+                <p>Jacket Fima</p>
+                <p>Strong Sersonality</p>
             </GalleryCard>
 
             <GalleryCard>
                 <img src="images/modelo3.jpg"
                 width={100}
                 height={100} alt="" />
-                <p>Loren</p>
+                <p>Jacket Black Kira</p>
+                <p>Power Fascinating</p>
             </GalleryCard>
         </Gallery>
+
+        <About>
+            <h2>Everything Never Enough Just Fashion</h2>
+            <p>Just Fashion</p>
+            <p>Praesent placerat eros eget lacus ullamcorper, id dapibus ante vestibulum. Curabitur quis condimentum diam. Duis aliquet erat vel laoreet tincidunt. Pellentesque vitae varius ligula. Phasellus in nibh tempus, gravida justo et, suscipit felis. Cras ornare arcu ac sodales tincidunt. Mauris vehicula erat vel ligula porttitor imperdiet. Curabitur nec magna urna. Sed porta ex ex, at pulvinar nibh aliquet quis. Integer dapibus congue vestibulum. Phasellus bibendum lobortis quam, nec sollicitudin nisl volutpat at.</p>
+
+        </About>
+
+        <Contact>
+            <h1>Contact</h1>
+        </Contact>
         </>
 
 

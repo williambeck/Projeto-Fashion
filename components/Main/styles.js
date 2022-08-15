@@ -17,3 +17,15 @@ export const Gallery = styled.div`
 
  
 `;
+
+export const About = styled.div`
+
+
+ 
+`;
+
+export const Contact = styled.div`
+
+
+ 
+`;
