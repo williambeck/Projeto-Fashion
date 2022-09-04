@@ -16,25 +16,25 @@ function Main() {
         <Gallery>
             <GalleryCard>
                 <Image src={modelo1}
-                width={100}
-                height={100} alt="" />
-                <p>Vest Romasa </p>
+                width={175}
+                height={175} alt="" />
+                <p className="title">Vest Romasa </p>
                 <p>Strong &amp; charismatic</p>
             </GalleryCard>
 
             <GalleryCard>
                 <Image src={modelo2}
-                width={100}
-                height={100} alt="" />
-                <p>Jacket Fima</p>
+                width={175}
+                height={175} alt="" />
+                <p className="title">Jacket Fima</p>
                 <p>Strong Sersonality</p>
             </GalleryCard>
 
             <GalleryCard>
                 <Image src={modelo3}
-                width={100}
-                height={100} alt="" />
-                <p>Jacket Black Kira</p>
+                width={175}
+                height={175} alt="" />
+                <p className="title">Jacket Black Kira</p>
                 <p>Power Fascinating</p>
             </GalleryCard>
         </Gallery>

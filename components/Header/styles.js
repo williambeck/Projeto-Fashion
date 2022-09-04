@@ -2,10 +2,22 @@ import styled from "styled-components";
 
 export const Headertop = styled.div`
 
-height: 50px;
-background: #ccc;
+height: 55px;
+background: #003d52;
 position: relative;
 
+background-image: url(../../images/bg_detalhe.png);
+background-repeat: no-repeat;
+background-position: right bottom;
+
+
+  
+`;
+
+export const Headerbottom = styled.div`
+
+padding: 50px ;
+text-align: center;
 
   
 `;
@@ -30,19 +42,16 @@ display: inline-block;
 }
 
 a {
-    color: #425564;
+    //color: #425564;
     letter-spacing: 5px;
-}
-
-
-
-
-
- 
+} 
 `;
 
 export const Logo = styled.div`
 
 margin: 0 0 0 135px;
+
+
+
  
 `;
