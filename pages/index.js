@@ -9,7 +9,7 @@ const Title = styled.h1`
 
 export default function Home() {
   return (
-    <><Title>Projeto Fashion</Title><Layout /></>
+    <><Layout /></>
 
     
   )

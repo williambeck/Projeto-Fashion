@@ -7,10 +7,13 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
   }
 
   html, body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: tahoma, Helvetica, sans-serif;
     
   }
 

@@ -1,5 +1,8 @@
 import { Container, GalleryCard, Gallery, About, Contact } from "../Main/styles";
 import Image from "next/image";
+import modelo1 from "../../public/images/modelo1.jpg"
+import modelo2 from "../../public/images/modelo2.jpg"
+import modelo3 from "../../public/images/modelo3.jpg"
 
 
 function Main() {
@@ -12,7 +15,7 @@ function Main() {
 
         <Gallery>
             <GalleryCard>
-                <img src="images/modelo1.jpg"
+                <Image src={modelo1}
                 width={100}
                 height={100} alt="" />
                 <p>Vest Romasa </p>
@@ -20,7 +23,7 @@ function Main() {
             </GalleryCard>
 
             <GalleryCard>
-                <img src="images/modelo2.jpg"
+                <Image src={modelo2}
                 width={100}
                 height={100} alt="" />
                 <p>Jacket Fima</p>
@@ -28,7 +31,7 @@ function Main() {
             </GalleryCard>
 
             <GalleryCard>
-                <img src="images/modelo3.jpg"
+                <Image src={modelo3}
                 width={100}
                 height={100} alt="" />
                 <p>Jacket Black Kira</p>
