@@ -46,9 +46,7 @@ function Main() {
 
         </About>
 
-        <Contact>
-            <h1>Contact</h1>
-        </Contact>
+        
         </>
 
 

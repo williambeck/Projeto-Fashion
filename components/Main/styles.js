@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bg from "../../public/images/bg_detalhe.png"
+
 
 export const Container = styled.div`
 
